@@ -1,3 +1,33 @@
+/*-------------------FUENTES--------------------------------*/
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('./fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('./fonts/OpenSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('./fonts/Raleway-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('./fonts/Raleway-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 
 /*-----------------------Reset y estilos base-------------------*/
 
@@ -11,7 +41,7 @@
 /*---------Estilo general del body---------*/
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Opensans', sans-serif;
     background-color: #f9f9f9;
     color: #333;
     line-height: 1.6;
@@ -36,7 +66,9 @@ a:hover {
 /*---------Títulos y secciones-----------*/
 
 h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
     margin-bottom: 10px;
+    
 }
 
 section {
